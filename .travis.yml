@@ -1,2 +1,9 @@
-language: node_js 
+language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ybg812PQljKW6oMwuu1+97JOLYfTObgj6b3XZ1uT7n6mM++aOc2/0Hmpd3Peo6y3Ua/dp0OBcpSI1GpAFxC9142lQoNKSQvJBZFvzf/ww/JoA6ZmNPG5M7C1mtBa8Ie3HGfhx5Xol0fo0FyPfr+kwUQp/JQP0ujdaLTwgb7RmnS67gAFjcjXtGzV933gBnOKQhlPVEuLZN4q7GcYAWZWd5DQNI0VUd4cyJs7SORvoGA1NeZRasTksNoxHD/tW7HL8ODnDz3H/3o0AbLm6QD8ffBj6jG2m/CStNQy3CSY7ogwcSBwyt3az6gi/TWthzJky0r8aHWcVknOteArqwa242y9ebCC4ruNFvHyrycGlASFlO4D3m3adx3Ime6LBgkJusM3O1ipqB+Ty1N68b3KHoVIjSpjS9uoOXN2bOMaziVhntHnodiJg6fbI2NN1PbgrVJezzWTNdaSwFiqSLvf2G0P0yKBzbkToNs5XRNVu8S0vI/pB4x1Ek+7hd01NAVPPL4zMw0+b/EoPppY+0raPsNR3aqDGIN0Y1zt/EI+hLHWRMfgS0ytDA6BwquY6LfQPjdjotoaCPYQRFPFjBk12PofkQh8KxqBGZs4XalYHNSQVZ7vMJipwQ7ow4brmsBd/q1FRtxQALytRu+oo9Zwp/Cozp/dN89y3B16FK3rlk0=
+  app: blooming-bastion-41388
+  on:
+    repo: chasingSublimity/node-shopping-list-integration-tests
